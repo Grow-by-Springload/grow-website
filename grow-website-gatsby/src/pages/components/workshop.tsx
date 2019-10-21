@@ -66,7 +66,7 @@ export default class Workshop extends React.Component<Props> {
             >
               Twitter
             </AnchorLink>{" "}
-            - in early 2020!
+            in early 2020!
           </p>
         </div>
 

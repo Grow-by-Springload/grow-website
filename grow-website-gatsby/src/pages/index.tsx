@@ -105,9 +105,8 @@ export default class IndexPage extends React.Component<IndexPageProps, {}> {
                   Grow is a series of self-contained workshops for women who
                   want to learn the basics of web development. Each workshop
                   provides a fun, practical intro to HTML, CSS, and JavaScript.
-                  Run by an all-women, all-volunteer cast of Springloaders, Grow
-                  workshops are free, inclusive, safe, and welcoming for even
-                  the most novice of newbies.
+                  Grow workshops are free, inclusive, safe, and welcoming for
+                  even the most novice of newbies.
                 </p>
               </div>
             </div>
@@ -176,7 +175,7 @@ export default class IndexPage extends React.Component<IndexPageProps, {}> {
                     plays a huge part in how she approaches front-end
                     development. She loves working with designers, and is
                     passionate about making the best decisions for the user
-                    experience. She learned front- end development at Media
+                    experience. She learned front-end development at Media
                     Design School in Auckland, and has a passion for building
                     beautiful, scalable UIs with CSS.
                   </p>
@@ -308,7 +307,7 @@ export default class IndexPage extends React.Component<IndexPageProps, {}> {
                   <div className={styles.headingSmall}>Cate Palmer</div>
                   <p className={styles.paragraphSmall}>
                     Before training to be a developer at Enspiral Dev Academy,
-                    Cate’s craft was fiction writing - she has an MA from the
+                    Cate’s craft was fiction writing – she has an MA from the
                     International Institute of Modern Letters, and an MFA from
                     the Michener Center for Writers in Austin, Texas. Now a
                     front-end developer pursuing her writing alongside her tech
@@ -336,7 +335,7 @@ export default class IndexPage extends React.Component<IndexPageProps, {}> {
                     technology together, and is inspired by artist/developers
                     like Sarah Drasner and Zach Lieberman. Outside of her work
                     at Springload, she’s constantly looking for ways to evolve
-                    her art - working on digital animations and interactive
+                    her art – working on digital animations and interactive
                     pieces, and drawing and coding together.
                   </p>
                 </div>{" "}
