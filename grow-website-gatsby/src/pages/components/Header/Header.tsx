@@ -13,9 +13,9 @@ const Header = () => {
           <img src={growLogo} alt="" />
         </div>
         <ul className={styles.headerMenu}>
-          {HeaderData.map((section, i) => {
+          {HeaderData.map((section, index) => {
             return (
-              <li key={i}>
+              <li key={index}>
                 <AnchorLink href={section.href}>{section.name}</AnchorLink>
               </li>
             )

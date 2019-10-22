@@ -8,12 +8,12 @@ const Footer = () => {
     <footer className={styles.footer}>
       <div className={styles.gutters}>
         <div className={styles.footerLinkContainer}>
-          {FooterData.map((section, i) => {
+          {FooterData.map((section, index) => {
             return (
               <AnchorLink
                 className={styles.footerLink}
                 href={section.href}
-                key={i}
+                key={index}
               >
                 {section.name}
               </AnchorLink>

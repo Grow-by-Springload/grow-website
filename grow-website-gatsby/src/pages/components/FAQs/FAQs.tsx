@@ -14,8 +14,8 @@ const FAQs = () => {
               {item.category}
             </div>
             <div className={styles.grid}>
-              {item.questions.map((item, i) => {
-                return <FAQ item={item} i={i} />
+              {item.questions.map((item, index) => {
+                return <FAQ item={item} index={index} />
               })}
             </div>
           </>

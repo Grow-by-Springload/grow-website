@@ -28,9 +28,9 @@ const Workshop = () => {
             {Moment(WorkshopData.dateTime).format("ha, dddd do MMMM YYYY")} |{" "}
             {WorkshopData.locationName}, {WorkshopData.locationAddress}
           </div>
-          {WorkshopData.description.map((paragraph, i) => {
+          {WorkshopData.description.map((paragraph, index) => {
             return (
-              <p className={styles.paragraphSmall} key={i}>
+              <p className={styles.paragraphSmall} key={index}>
                 {paragraph}
               </p>
             )
