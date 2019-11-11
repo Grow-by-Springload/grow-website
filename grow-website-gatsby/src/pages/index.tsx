@@ -22,18 +22,13 @@ interface IndexPageProps {
   }
 }
 
-export const indexPageQuery = graphql`
-  query IndexPageQuery {
+export const indexPageAndHeaderImageQuery = graphql`
+  query IndexPageAndHeaderImageQuery {
     site {
       siteMetadata {
         name
       }
     }
-  }
-`
-
-export const pageQuery = graphql`
-  query HeaderImageQuery {
     headerImage: imageSharp(id: { regex: "/header/" }) {
       sizes(maxWidth: 1240) {
         ...GatsbyImageSharpSizes
