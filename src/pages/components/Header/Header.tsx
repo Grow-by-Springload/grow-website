@@ -18,6 +18,10 @@ const HeaderData = [
     href: "#people",
   },
   {
+    name: "Resources",
+    href: "#resources",
+  },
+  {
     name: "FAQs",
     href: "#faqs",
   },
