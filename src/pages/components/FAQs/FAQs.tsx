@@ -24,14 +24,13 @@ const FAQData = [
         ),
       },
       {
-        question:
-          "Why a workshop specifically for women and non-binary people?",
+        question: "Why do you run workshops for specific groups?",
         answer: (
           <>
-            There’s still a huge gender gap in STEM, and we believe creating
-            spaces for learning to code for those who are underrepresented will
-            help us close that gap. We are all for doing what we can to create a
-            more diverse tech sector.
+            Some groups are very underrepresented in the tech sector in
+            Aotearoa, and we believe it’s important to create spaces for
+            learning to code for these groups. We are all for doing what we can
+            to create a more diverse tech sector.
           </>
         ),
       },
