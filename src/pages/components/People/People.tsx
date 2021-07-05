@@ -16,11 +16,11 @@ import julietFunImage from "../../../images/juliet-Fun.jpg"
 import kellyImage from "../../../images/kelly-Normal.jpg"
 import kellyFunImage from "../../../images/kelly-Fun.jpg"
 
+import liamImage from "../../../images/liam-Normal.jpg"
+import liamFunImage from "../../../images/liam-Fun.jpg"
+
 import piaImage from "../../../images/pia-Normal.jpg"
 import piaFunImage from "../../../images/pia-Fun.jpg"
-
-import rachelImage from "../../../images/rachel-Normal.jpg"
-import rachelFunImage from "../../../images/rachel-Fun.jpg"
 
 const PeopleData = {
   description: [
@@ -32,12 +32,6 @@ const PeopleData = {
     },
   ],
   people: [
-    {
-      url: "https://www.springload.co.nz/people/rachel-bolt/",
-      name: "Rachel Bolt",
-      imageSrc: rachelImage,
-      imageSrcTwo: rachelFunImage,
-    },
     {
       url: "https://www.springload.co.nz/people/kelly-todd/",
       name: "Kelly Todd",
@@ -73,6 +67,12 @@ const PeopleData = {
       name: "Pia Steiner",
       imageSrc: piaImage,
       imageSrcTwo: piaFunImage,
+    },
+    {
+      url: "https://www.springload.co.nz/people/liam-johnston/",
+      name: "Liam Johnston",
+      imageSrc: liamImage,
+      imageSrcTwo: liamFunImage,
     },
   ],
 }
