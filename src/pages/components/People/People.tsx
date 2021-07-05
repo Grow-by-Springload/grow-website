@@ -1,6 +1,9 @@
 import React from "react"
 import * as styles from "../../Index.module.scss"
 
+import alexaImage from "../../../images/alexa-Normal.jpg"
+import alexaFunImage from "../../../images/alexa-Fun.jpg"
+
 import cateImage from "../../../images/cate-Normal.jpg"
 import cateFunImage from "../../../images/cate-Fun.jpg"
 
@@ -10,23 +13,14 @@ import giselaFunImage from "../../../images/gisela-Fun.jpg"
 import julietImage from "../../../images/juliet-Normal.jpg"
 import julietFunImage from "../../../images/juliet-Fun.jpg"
 
-import katieImage from "../../../images/katie-Normal.jpg"
-import katieFunImage from "../../../images/katie-Fun.jpg"
-
 import kellyImage from "../../../images/kelly-Normal.jpg"
 import kellyFunImage from "../../../images/kelly-Fun.jpg"
 
-import lydieImage from "../../../images/lydie-Normal.jpg"
-import lydieFunImage from "../../../images/lydie-Fun.jpg"
+import liamImage from "../../../images/liam-Normal.jpg"
+import liamFunImage from "../../../images/liam-Fun.jpg"
 
-import rachelImage from "../../../images/rachel-Normal.jpg"
-import rachelFunImage from "../../../images/rachel-Fun.jpg"
-
-import ushaImage from "../../../images/usha-Normal.jpg"
-import ushaFunImage from "../../../images/usha-Fun.jpg"
-
-import jessImage from "../../../images/jess-Normal.jpg"
-import jessFunImage from "../../../images/jess-Fun.jpg"
+import piaImage from "../../../images/pia-Normal.jpg"
+import piaFunImage from "../../../images/pia-Fun.jpg"
 
 const PeopleData = {
   description: [
@@ -39,24 +33,6 @@ const PeopleData = {
   ],
   people: [
     {
-      url: "https://www.springload.co.nz/people/katie-day/",
-      name: "Katie Day",
-      imageSrc: katieImage,
-      imageSrcTwo: katieFunImage,
-    },
-    {
-      url: "https://www.springload.co.nz/people/rachel-bolt/",
-      name: "Rachel Bolt",
-      imageSrc: rachelImage,
-      imageSrcTwo: rachelFunImage,
-    },
-    {
-      url: "https://www.springload.co.nz/people/usha-macdonald/",
-      name: "Usha MacDonald",
-      imageSrc: ushaImage,
-      imageSrcTwo: ushaFunImage,
-    },
-    {
       url: "https://www.springload.co.nz/people/kelly-todd/",
       name: "Kelly Todd",
       imageSrc: kellyImage,
@@ -67,12 +43,6 @@ const PeopleData = {
       name: "Gisela de la Villa",
       imageSrc: giselaImage,
       imageSrcTwo: giselaFunImage,
-    },
-    {
-      url: "https://www.springload.co.nz/people/lydie-danet/",
-      name: "Lydie Danet",
-      imageSrc: lydieImage,
-      imageSrcTwo: lydieFunImage,
     },
     {
       url: "https://www.springload.co.nz/people/cate-palmer/",
@@ -87,10 +57,22 @@ const PeopleData = {
       imageSrcTwo: julietFunImage,
     },
     {
-      url: "https://www.springload.co.nz/people/jess-kennair/",
-      name: "Jessica Kennair",
-      imageSrc: jessImage,
-      imageSrcTwo: jessFunImage,
+      url: "https://www.springload.co.nz/people/alexa-patterson/",
+      name: "Alexa Patterson",
+      imageSrc: alexaImage,
+      imageSrcTwo: alexaFunImage,
+    },
+    {
+      url: "https://www.springload.co.nz/people/pia-steiner/",
+      name: "Pia Steiner",
+      imageSrc: piaImage,
+      imageSrcTwo: piaFunImage,
+    },
+    {
+      url: "https://www.springload.co.nz/people/liam-johnston/",
+      name: "Liam Johnston",
+      imageSrc: liamImage,
+      imageSrcTwo: liamFunImage,
     },
   ],
 }
@@ -128,10 +110,12 @@ const People = () => {
                 <a key={i} href={person.url} aria-labelledby={person.name}>
                   <img
                     src={person.imageSrc}
-                    onMouseOver={e =>
+                    onMouseOver={(e) =>
                       (e.currentTarget.src = person.imageSrcTwo)
                     }
-                    onMouseLeave={e => (e.currentTarget.src = person.imageSrc)}
+                    onMouseLeave={(e) =>
+                      (e.currentTarget.src = person.imageSrc)
+                    }
                     className={styles.peopleImage}
                     alt=""
                   />

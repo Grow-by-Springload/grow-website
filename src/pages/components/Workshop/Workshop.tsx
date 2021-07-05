@@ -46,11 +46,12 @@ const Workshop = () => {
             {WorkshopData.name}
           </h3>
           <div className={styles.uWidthSixtyPercent}>
-            <p className={`${styles.paragraphSmall} ${styles.headingSubtitle}`}>
+            {/* Commented out until we have an upcoming workshop */}
+            {/* <p className={`${styles.paragraphSmall} ${styles.headingSubtitle}`}>
               {WorkshopData.day}{" "}
               {Moment(WorkshopData.dateTime).format("DD MMMM YYYY")} |{" "}
               {WorkshopData.locationName}, {WorkshopData.locationAddress}
-            </p>
+            </p> */}
             {WorkshopData.description.map((paragraph, i) => {
               return (
                 <p
@@ -62,14 +63,16 @@ const Workshop = () => {
               )
             })}
             <div className={styles.uMarginBottomS}>
-              {/* Commented out until we need for a workshop  */}
+              {/* Commented out until we have an upcoming workshop */}
               {/* <a
                 className={`${styles.boldLink} ${styles.uUnderlineParagraphLink}`}
                 href="https://docs.google.com/forms/d/e/1FAIpQLSd7MIdNliJ_M1RH58qo4Q5TYNxdUYLao_EATktQ7sbt8wK9Sg/viewform"
               >
                 Apply for this workshop
               </a> */}
-              <p className={styles.boldLink}>Applications are now closed.</p>
+              <p className={styles.boldLink}>
+                Applications are currently closed.
+              </p>
 
               <p className={styles.uMarginBottomXL}>
                 Keep an eye out on our{" "}

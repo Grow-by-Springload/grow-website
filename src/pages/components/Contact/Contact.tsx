@@ -27,14 +27,15 @@ const Contact = () => {
                 Want to learn more about the wonderful world of coding? Come
                 along to our next free workshop – we’d love to have you!
               </p>
-              <p>
+              {/* Commented out until we have an upcoming workshop */}
+              {/* <p>
                 <a
                   className={styles.uUnderlineLink}
                   href="https://docs.google.com/forms/d/e/1FAIpQLSd7MIdNliJ_M1RH58qo4Q5TYNxdUYLao_EATktQ7sbt8wK9Sg/viewform"
                 >
                   Apply for this workshop
                 </a>
-              </p>
+              </p> */}
             </div>
 
             <div className={styles.contactFlexItem} id="contact">
